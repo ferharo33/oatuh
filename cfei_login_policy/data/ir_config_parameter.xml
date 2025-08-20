@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- per_user: cada usuario decide; oauth_only / password_only como alternativas -->
+        <record id="param_cfei_auth_exclusive" model="ir.config_parameter">
+            <field name="key">cfei.auth_exclusive</field>
+            <field name="value">per_user</field>
+        </record>
+    </data>
+</odoo>
